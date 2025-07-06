@@ -16,9 +16,9 @@
     "@aws-sdk/lib-storage": "^3.842.0",
     "@headlessui/react": "^2.2.4",
     "@heroicons/react": "^2.2.0",
-    "@hey/data": "workspace:*",
-    "@hey/helpers": "workspace:*",
-    "@hey/indexer": "workspace:*",
+    "@hey/data": "1.0.0",
+    "@hey/helpers": "1.0.0",
+    "@hey/indexer": "1.0.0",
     "@hookform/resolvers": "5.1.1",
     "@lens-chain/storage-client": "^1.0.5",
     "@lens-protocol/metadata": "^2.1.0",
@@ -70,8 +70,8 @@
     "zustand": "^5.0.6"
   },
   "devDependencies": {
-    "@hey/config": "workspace:*",
-    "@hey/types": "workspace:*",
+    "@hey/config": "1.0.0",
+    "@hey/types": "1.0.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.10",
     "@types/hast": "^3.0.4",
