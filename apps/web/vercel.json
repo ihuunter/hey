@@ -2,6 +2,5 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
-  "devCommand": "npm run dev",
-  "rootDirectory": "apps/web"
+  "devCommand": "npm run dev"
 }
