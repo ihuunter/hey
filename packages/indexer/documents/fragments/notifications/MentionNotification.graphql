@@ -1,6 +1,0 @@
-fragment MentionNotification on MentionNotification {
-  id
-  post {
-    ...Post
-  }
-}

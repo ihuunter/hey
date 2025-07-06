@@ -1,5 +1,0 @@
-query Account($request: AccountRequest!) {
-  account(request: $request) {
-    ...Account
-  }
-}

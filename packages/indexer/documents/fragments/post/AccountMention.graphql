@@ -1,7 +1,0 @@
-fragment AccountMention on AccountMention {
-  account
-  namespace
-  replace {
-    from
-  }
-}

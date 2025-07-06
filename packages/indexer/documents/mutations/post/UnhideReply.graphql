@@ -1,3 +1,0 @@
-mutation UnhideReply($request: UnhideReplyRequest!) {
-  unhideReply(request: $request)
-}

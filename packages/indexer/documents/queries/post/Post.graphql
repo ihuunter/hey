@@ -1,5 +1,0 @@
-query Post($request: PostRequest!) {
-  post(request: $request) {
-    ...AnyPost
-  }
-}

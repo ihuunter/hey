@@ -1,8 +1,0 @@
-fragment PostMention on PostMention {
-  ... on AccountMention {
-    ...AccountMention
-  }
-  ... on GroupMention {
-    ...GroupMention
-  }
-}

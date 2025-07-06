@@ -1,6 +1,0 @@
-fragment QuoteNotification on QuoteNotification {
-  id
-  quote {
-    ...Post
-  }
-}

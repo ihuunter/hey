@@ -1,6 +1,0 @@
-mutation Challenge($request: ChallengeRequest!) {
-  challenge(request: $request) {
-    id
-    text
-  }
-}

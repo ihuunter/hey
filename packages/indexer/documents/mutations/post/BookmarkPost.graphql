@@ -1,3 +1,0 @@
-mutation BookmarkPost($request: BookmarkPostRequest!) {
-  bookmarkPost(request: $request)
-}

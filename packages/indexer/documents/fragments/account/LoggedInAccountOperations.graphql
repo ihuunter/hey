@@ -1,8 +1,0 @@
-fragment LoggedInAccountOperations on LoggedInAccountOperations {
-  id
-  isFollowedByMe
-  isFollowingMe
-  isMutedByMe
-  isBlockedByMe
-  hasBlockedMe
-}

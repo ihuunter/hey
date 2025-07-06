@@ -1,4 +1,0 @@
-fragment PaginatedResultInfo on PaginatedResultInfo {
-  prev
-  next
-}

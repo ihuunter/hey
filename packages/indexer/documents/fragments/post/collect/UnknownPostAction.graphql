@@ -1,3 +1,0 @@
-fragment UnknownPostAction on UnknownPostAction {
-  __typename
-}

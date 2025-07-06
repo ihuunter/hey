@@ -1,3 +1,0 @@
-mutation Mute($request: MuteRequest!) {
-  mute(request: $request)
-}

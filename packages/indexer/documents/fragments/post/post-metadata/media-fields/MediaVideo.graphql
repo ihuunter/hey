@@ -1,5 +1,0 @@
-fragment MediaVideo on MediaVideo {
-  item
-  cover
-  license
-}

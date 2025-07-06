@@ -1,9 +1,0 @@
-fragment AccountManager on AccountManager {
-  manager
-  isLensManager
-  permissions {
-    canExecuteTransactions
-    canTransferNative
-    canTransferTokens
-  }
-}

@@ -1,8 +1,0 @@
-fragment PostAction on PostAction {
-  ... on SimpleCollectAction {
-    ...SimpleCollectAction
-  }
-  ... on UnknownPostAction {
-    ...UnknownPostAction
-  }
-}

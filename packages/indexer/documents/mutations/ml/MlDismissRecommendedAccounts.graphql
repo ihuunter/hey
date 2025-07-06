@@ -1,5 +1,0 @@
-mutation MlDismissRecommendedAccounts(
-  $request: DismissRecommendedAccountsRequest!
-) {
-  mlDismissRecommendedAccounts(request: $request)
-}

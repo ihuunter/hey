@@ -1,8 +1,0 @@
-fragment SimpleCollectAction on SimpleCollectAction {
-  address
-  collectLimit
-  endsAt
-  payToCollect {
-    ...PayToCollectConfig
-  }
-}

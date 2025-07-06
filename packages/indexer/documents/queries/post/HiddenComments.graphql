@@ -1,7 +1,0 @@
-query HiddenComments($request: PostReferencesRequest!) {
-  postReferences(request: $request) {
-    items {
-      __typename
-    }
-  }
-}
