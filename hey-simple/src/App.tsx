@@ -1,34 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Layout from './components/Common/Layout'
+import Home from './components/Home'
+import { Toaster } from 'sonner'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="explore" element={<div className="p-6">
+              <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">استكشاف</h1>
+              <p className="text-gray-600 dark:text-gray-400">قريباً...</p>
+            </div>} />
+            <Route path="notifications" element={<div className="p-6">
+              <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">الإشعارات</h1>
+              <p className="text-gray-600 dark:text-gray-400">قريباً...</p>
+            </div>} />
+            <Route path="bookmarks" element={<div className="p-6">
+              <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">المحفوظات</h1>
+              <p className="text-gray-600 dark:text-gray-400">قريباً...</p>
+            </div>} />
+            <Route path="profile/:username" element={<div className="p-6">
+              <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">الملف الشخصي</h1>
+              <p className="text-gray-600 dark:text-gray-400">قريباً...</p>
+            </div>} />
+            <Route path="settings" element={<div className="p-6">
+              <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">الإعدادات</h1>
+              <p className="text-gray-600 dark:text-gray-400">قريباً...</p>
+            </div>} />
+          </Route>
+        </Routes>
+        
+        {/* Toast notifications */}
+        <Toaster position="top-right" />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </Router>
   )
 }
 
