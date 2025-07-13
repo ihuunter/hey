@@ -4,7 +4,18 @@ A modern, full-stack social media application built with React, Node.js, GraphQL
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Deploy to Vercel (One-Click)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyour-username%2Fhey&project-name=hey-social-media&repository-name=hey-social-media&build-command=npm%20run%20build&output-directory=dist&root-directory=apps%2Fweb)
+
+**Quick Deploy Instructions:**
+1. Fork this repository to your GitHub account
+2. Click the "Deploy with Vercel" button above
+3. Follow the [Vercel Deployment Guide](VERCEL_DEPLOYMENT.md) for full setup
+
+### Local Development
+
+#### Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/) (v18 or higher)
 - [pnpm](https://pnpm.io/installation) (recommended) or npm
