@@ -1,18 +1,9 @@
-@import "tailwindcss";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 /* Font Face - استخدام خط Inter بدلاً من Sofia Pro */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui;
-  --animate-shimmer: shimmer 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-
-  /* Brand Colors */
-  --color-brand-50: #fff0f2;
-  --color-brand-300: #ffa1ad;
-  --color-brand-500: #fb3a5d;
-  --color-brand-600: #e91546;
-}
 
 @keyframes shimmer {
   0%,
