@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import PostCard from '../Post/PostCard'
 import NewPost from './NewPost'
 import CreatePost from './CreatePost'
-import { supabase, type Post } from '../../lib/supabase'
+import type { Post } from '../../lib/supabase'
 import { useAppStore } from '../../store/useAppStore'
 
 const Home: React.FC = () => {
